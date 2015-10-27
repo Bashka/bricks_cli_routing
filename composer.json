@@ -1,0 +1,22 @@
+{
+    "name": "bashka/bricks_cli_routing",
+    "version": "1.0",
+    "description": "Маршрутизатор CLI вызовов",
+    "license": "GNU-3.0",
+    "authors": [
+        {
+            "name": "Artur Sh. Mamedbekov",
+            "email": "Artur-Mamedbekov@yandex.ru"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.0"
+    },
+    "autoload": {
+      "classmap": [
+        "Router.php",
+        "Call.php",
+        "RoutingException.php"
+      ]
+    }
+}
