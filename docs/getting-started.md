@@ -14,3 +14,9 @@ $router->route(['a' => '/^create$/'], function(Call $call){
 });
 $router->run(new Call('a:'));
 ```
+
+Такому маршруту будет соответствовать вызов вида:
+
+```bash
+php script.php -acreate
+```

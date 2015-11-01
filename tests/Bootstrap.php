@@ -15,4 +15,3 @@ function getenv($varname){
 function file_get_contents($file){
   return 'test';
 }
-
