@@ -1,6 +1,8 @@
 <?php
 namespace Bricks\Cli\Routing;
 require_once('Router.php');
+require_once('Call.php');
+require_once('RoutingException.php');
 
 /**
  * @author Artur Sh. Mamedbekov

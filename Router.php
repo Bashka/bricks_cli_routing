@@ -1,7 +1,5 @@
 <?php
 namespace Bricks\Cli\Routing;
-require_once(__DIR__ . '/Call.php');
-require_once(__DIR__ . '/RoutingException.php');
 
 /**
  * Маршрутизирует запросы, используемые при вызове PHP интерпретатора из 
