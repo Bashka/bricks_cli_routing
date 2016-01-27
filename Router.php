@@ -123,7 +123,8 @@ class Router{
     foreach($this->map as $options){
       $success = true;
       foreach($options['pattern'] as $opt => $pattern){
-        if(!preg_match($pattern, $call->opt($opt))){
+        $opt = $call->opt($opt);
+        if(is_null($opt) || !preg_match($pattern, $opt)){
           $success = false;
           break;
         }
